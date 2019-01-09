@@ -1,7 +1,7 @@
 module Api
   module V1
     class BooksController < ApplicationController
-      before_action :set_author, only: %i[create]
+      before_action :set_author, only: %i[show create]
       before_action :set_book, only: %i[show update destroy]
 
       def index

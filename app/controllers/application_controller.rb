@@ -35,7 +35,7 @@ class ApplicationController < ActionController::API
 
   def authenticate_admin_with_token
     authenticate_with_http_token do |token, options|
-      @admin = user.find_by(api_key: token, admin: true)
+      @admin = User.find_by(api_key: token, admin: true)
     end
   end
 
