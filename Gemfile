@@ -18,6 +18,7 @@ group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'annotate', '~> 2.7', '>= 2.7.4'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
@@ -25,3 +26,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'active_model_serializers', '~> 0.10.8'
 gem 'rack-cors', '~> 1.0', '>= 1.0.2'
 gem 'will_paginate', '~> 3.1', '>= 3.1.6'
+gem 'bullet', '~> 5.9'
